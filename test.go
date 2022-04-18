@@ -32,8 +32,8 @@ func entry(w http.ResponseWriter, r *http.Request) {
 	sink(aa)
 
 	b := testlib.source()
-	bb, _ := testlib.spread(a)
-	testlib.sink(a)
+	bb, _ := testlib.spread(b)
+	testlib.sink(bb)
 
 	ignore()
 
